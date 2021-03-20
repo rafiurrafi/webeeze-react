@@ -1,0 +1,101 @@
+/* Big tablet to 1200px  */
+@media only screen and (max-width: 1200px) {
+}
+/* Small tablet to Big tablet */
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 60%;
+  }
+  .container {
+    padding-left: 10rem;
+  }
+  h1 {
+    font-size: 8rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+  .Sidebar-content {
+    padding-left: 4rem;
+  }
+  .Socials a {
+    margin-left: 2rem;
+  }
+}
+/* Small phone to small tablet  */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 50%;
+  }
+  .Sidebar {
+    position: static;
+    width: 100%;
+  }
+  .Sidebar-content {
+    padding-left: 5rem;
+    padding-top: 6rem;
+  }
+  h1 {
+    font-size: 7rem;
+  }
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 4.5rem;
+  }
+  h3 {
+    font-size: 1.6rem;
+  }
+  section {
+    margin-bottom: 12rem;
+  }
+  main {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .Socials {
+    right: 2rem;
+    top: 1.5rem;
+  }
+  .Socials a {
+    font-size: 1.6rem;
+  }
+  .MenuIcon {
+    width: 5rem;
+    right: 3rem;
+    overflow: hidden;
+  }
+
+  .Messanger {
+    right: 3rem;
+    width: 4rem;
+    height: 4rem;
+  }
+  .menu-section-show {
+    width: 100%;
+  }
+  form input:first-child {
+    width: 60%;
+  }
+
+  form input:nth-child(2) {
+    width: 70%;
+  }
+  form input:last-of-type {
+    width: 85%;
+  }
+}
+/*Small phone : from 0 to 480px   */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 40%;
+  }
+  .MenuIcon {
+    right: 2rem;
+  }
+
+  .Messanger {
+    right: 2rem;
+    width: 3rem;
+    height: 3rem;
+  }
+}

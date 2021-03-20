@@ -1,4 +1,7 @@
 /* Reusable component  */
+section {
+  margin-bottom: 20rem;
+}
 .container {
   padding-left: 13.5rem;
   padding-top: 3.5rem;
@@ -7,7 +10,7 @@
   min-height: 95vh;
 }
 .single-content {
-  margin-bottom: 4rem;
+  margin-bottom: 12rem;
 }
 .single-img {
   height: 6.5rem;
@@ -26,12 +29,12 @@ h1 span {
   color: #052a9a;
 }
 h2 {
-  font-size: 2.5rem;
-  margin-bottom: 3rem;
+  font-size: 4rem;
+  margin-bottom: 6rem;
 }
 h3 {
-  font-size: 1.4rem;
-  margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 h5 {
   font-size: 1.5rem;

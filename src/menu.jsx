@@ -11,18 +11,10 @@ class Menu extends Component {
           </a>
           <div class="menu-content">
             <ul class="menu-nav">
-              <a href="#section-about" onclick="hideSidebar()">
-                About
-              </a>
-              <a href="#section-team" onclick="hideSidebar()">
-                Team
-              </a>
-              <a href="#section-projects" onclick="hideSidebar()">
-                Project
-              </a>
-              <a href="#section-contact" onclick="hideSidebar()">
-                Contact
-              </a>
+              <a href="#section-about">About</a>
+              <a href="#section-team">Team</a>
+              <a href="#section-projects">Project</a>
+              <a href="#section-contact">Contact</a>
             </ul>
             <div class="menu-footer">
               <div>

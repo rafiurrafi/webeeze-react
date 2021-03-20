@@ -1,19 +1,22 @@
 const abouts = [
   {
     _id: 1,
-    heading: "We are _",
+    heading: "Web design",
+    imgSrc: "/img/js-1.jpg",
     text:
       "The power of \n witty innovative and creative \n website designing and developing",
   },
   {
     _id: 2,
-    heading: "We have _",
+    heading: "Web developement",
+    imgSrc: "/img/js-2.jpg",
     text:
       "The power of \n witty innovative and creative \n website designing and developing",
   },
   {
     _id: 3,
-    heading: "We do _",
+    heading: "Progressive web app",
+    imgSrc: "/img/js-3.jpg",
     text:
       "The power of \n witty innovative and creative \n website designing and developing",
   },

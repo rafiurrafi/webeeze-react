@@ -1,4 +1,7 @@
 /* Contact section  */
+section.Contact {
+  margin-bottom: 0;
+}
 form input[type="text"] {
   display: block;
   border: none;

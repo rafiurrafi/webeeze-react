@@ -15,9 +15,11 @@ class About extends Component {
     return (
       <section className="About section" id="section-about">
         <div className="container page">
+          <h2>We do _</h2>
           {abouts.map((about) => (
             <div key={about._id} className="single-content">
-              <h2>{about.heading}</h2>
+              <img src={about.imgSrc} alt="" className="single-img" />
+              <h3>{about.heading}</h3>
               <p className="text">{addLineBreak(about.text)}</p>
             </div>
           ))}
