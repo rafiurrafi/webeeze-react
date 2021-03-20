@@ -1,0 +1,48 @@
+/* Section Menu  */
+.Menu {
+  color: #fff;
+  position: fixed;
+  height: 100%;
+  width: 0%;
+  top: 0;
+  right: 0;
+  background-color: #4169e1;
+  z-index: 2;
+  transition: all 0.5s;
+}
+.menu-logo {
+  position: absolute;
+  top: 3rem;
+  left: 4rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+.menu-content {
+  margin-top: 30%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.menu-nav a {
+  display: block;
+  width: 6rem;
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+.menu-footer {
+  display: flex;
+  margin-top: 20%;
+}
+.menu-footer div:first-child {
+  margin-right: 9.6rem;
+}
+
+.menu-footer p {
+  font-size: 1.4rem;
+}
+.menu-section-show {
+  width: 50%;
+}

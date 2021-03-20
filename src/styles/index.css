@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Fira Code", monospace;
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+main {
+  margin-left: 50vw;
+}
+
+/* Big tablet to 1200px  */
+@media only screen and (max-width: 1200px) {
+}
+/* Small tablet to Big tablet */
+@media only screen and (max-width: 1023px) {
+  /* body{
+    font-size: 62.5%;
+  } */
+}
+/* Small phone to small tablet  */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 60%;
+    background-color: red;
+  }
+}
+/*Small phone : from 0 to 480px   */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 50%;
+    background-color: green;
+  }
+}

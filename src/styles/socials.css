@@ -1,0 +1,11 @@
+/* Socials  */
+.Socials {
+  position: fixed;
+  right: 3rem;
+  top: 2rem;
+}
+.Socials a {
+  color: #4169e1;
+  margin-left: 1rem;
+  font-size: 1.6rem;
+}

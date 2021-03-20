@@ -1,0 +1,26 @@
+/* Messanger box  */
+.Messanger  {
+  position: fixed;
+  right: 5rem;
+  bottom: 7rem;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 2rem;
+  transition: all 0.3s;
+  z-index: 3;
+  background-color: #fff;
+}
+.Messanger :hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.Messanger  a {
+  display: block;
+  color: #4169e1;
+}
